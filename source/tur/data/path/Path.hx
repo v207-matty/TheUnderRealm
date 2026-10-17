@@ -9,9 +9,9 @@ class Path
 
 	public var dialogue:Array<String> = [];
 
-	public var choices:Array<Dynamic> = [];
+	public var choices:Array<PathChoice> = [];
 
-	public function new(?graphic:String, ?dialogue:Array<String>, ?choices:Array<Dynamic>)
+	public function new(?graphic:String, ?dialogue:Array<String>, ?choices:Array<PathChoice>)
 	{
 		this.graphic = graphic ?? null;
 		this.dialogue = dialogue ?? [];
