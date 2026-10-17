@@ -38,7 +38,7 @@
 	<set name="BUILD_DIR" value="export/debug" if="debug" />
 
 	<source path="source" />
-	<!-- <assets path="assets" /> -->
+	<assets path="assets" />
 
 	<!-- _______________________________ Libraries ______________________________ -->
 
