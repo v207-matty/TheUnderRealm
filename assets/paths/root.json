@@ -1,0 +1,10 @@
+{
+    "graphic": null,
+    "dialogue": [],
+    "choices": [
+        {
+            "text": "Wake up",
+            "next": "wake-up"
+        }
+    ]
+}
